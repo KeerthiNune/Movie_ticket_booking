@@ -1,0 +1,10 @@
+use demo;
+create table users_detail(Name varchar(100) , Roll varchar(10) PRIMARY KEY, Hostel varchar(20), Password varchar(16));
+insert into users_detail(Name, Roll, Hostel, Password)values ("Apoorva", 10, "sarada","Apporva@1234");
+
+create table ticket_details(Name varchar(100),roll varchar(10) primary key,movie varchar(30),date varchar(20),time varchar(20),tickets varchar(4),payment1 varchar(20),payments2 varchar(5));
+insert into ticket_details values("sdf","2","asdf","2024-03-14","3:00 PM",2,"123456789098765","123");
+select * from ticket_details;
+
+
+select * from users_detail;
